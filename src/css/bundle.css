@@ -1,0 +1,83 @@
+@import "swiper/swiper-bundle.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  @font-face {
+    font-family: Aeroport;
+    font-weight: 700;
+    src: url(../fonts/Aeroport-Bold.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Aeroport;
+    font-weight: 500;
+    src: url(../fonts/Aeroport-medium.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Aeroport;
+    font-weight: 400;
+    src: url(../fonts/Aeroport-regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Aeroport;
+    font-weight: 200;
+    src: url(../fonts/Aeroport-light.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Avenir;
+    font-weight: 700;
+    src: url(../fonts/AvenirNext-Bold.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Avenir;
+    font-weight: 600;
+    src: url(../fonts/AvenirNext-Demi.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Avenir;
+    font-weight: 500;
+    src: url(../fonts/AvenirNext-Medium.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Avenir;
+    font-weight: 400;
+    src: url(../fonts/AvenirNext-Regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Avenir;
+    font-weight: 200;
+    src: url(../fonts/AvenirNext-Light.woff2) format("woff2");
+  }
+}
+
+@layer utilities {
+  .bg-gradient-site {
+    background: linear-gradient(203.52deg, #8E54E9 0%, #56B4D3 80.7%);
+  }
+  .bg-gradient-performance {
+    background: linear-gradient(90deg, #FFD43C 0%, #F15F79 98.96%);
+  }
+  .bg-gradient-audit {
+    background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+  }
+  .bg-gradient-content {
+    background: linear-gradient(90deg, #4ECDC2 0%, #24827C 100%);
+  }
+  .bg-gradient-branding {
+    background: linear-gradient(90deg, #505152 0%, #8E8F8F 100%);
+  }
+  .bg-gradient-team {
+    background: linear-gradient(90deg, #BFE85B 0%, #2D9D84 98.96%);
+  }
+}
